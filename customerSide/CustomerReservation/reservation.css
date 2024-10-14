@@ -1,0 +1,20 @@
+ /* Apply background image to the body */
+ body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(37, 42, 52);    
+    display: flex;
+    color: white;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+.reserve-container {
+    max-width: 36.4em;
+}
+.column {
+    padding: 10px;
+    text-align: left;
+    width: 36.4em;
+    flex-basis: 50%; /* Adjust the width of the columns as needed */
+   
+}
